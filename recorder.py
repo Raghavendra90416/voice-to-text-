@@ -26,6 +26,6 @@ def record_audio(filename, duration=3):
 
     sf.write(filename, audio, sample_rate)
 
-    print("✅ Recording Completed")
-
+    print(" Recording Completed")
+#proram changed 
     return filename
